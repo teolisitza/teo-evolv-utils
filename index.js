@@ -5,5 +5,5 @@
  ****/
  
 evolv.context.update({
-    company: "ADP" ? ($("meta[content='3614852']").length === 1) : "OTHER"
+    company: ($("meta[content='3614852']").length === 1) ? "ADP" : "OTHER"
 });
